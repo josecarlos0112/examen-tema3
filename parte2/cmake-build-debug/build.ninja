@@ -55,7 +55,7 @@ build CMakeFiles/main.dir/main.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/U
   OBJECT_DIR = CMakeFiles\main.dir
   OBJECT_FILE_DIR = CMakeFiles\main.dir
 
-build CMakeFiles/main.dir/environment.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/Users/usuario/Documents/GitHub/examen-tema3/parte2/cmake-build-debug/environment.cpp || cmake_object_order_depends_target_main
+build CMakeFiles/main.dir/environment.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/Users/usuario/Documents/GitHub/examen-tema3/parte2/environment.cpp || cmake_object_order_depends_target_main
   DEP_FILE = CMakeFiles\main.dir\environment.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\main.dir

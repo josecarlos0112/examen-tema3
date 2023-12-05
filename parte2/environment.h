@@ -1,11 +1,6 @@
-//
-// Created by usuario on 5/12/2023.
-//
-#ifndef PARTE2_ENVIRONMENT_H
-#define PARTE2_ENVIRONMENT_H
-
 #include <map>
 #include <string>
+#include <exception>
 #include "variant.h"
 
 class Environment {
@@ -13,9 +8,28 @@ private:
     std::map<std::string, Variant> symbolTable;
 
 public:
-    void setVariable(const std::string& name, const Variant& value);
-    Variant getVariable(const std::string& name) const;
-    // Otras funciones que puedas necesitar para manipular el entorno, como eliminar variables, etc.
-};
+    void insert(const std::string& symbol, const Variant& value) {
+        if (symbolTable.find(symbol) != symbolTable.end()) {
+            throw std::runtime_error("Symbol already exists");
+        }
+        symbolTable[symbol] = value;
+    }
 
-#endif // PARTE2_ENVIRONMENT_H
+    Variant lookup(const std::string& symbol) {
+        if (symbolTable.find(symbol) == symbolTable.end()) {
+            throw std::runtime_error("Symbol does not exist");
+        }
+        return symbolTable[symbol];
+    }
+
+    void remove(const std::string& symbol) {
+        if (symbolTable.find(symbol) == symbolTable.end()) {
+            throw std::runtime_error("Symbol does not exist");
+        }
+        symbolTable.erase(symbol);
+    }
+
+    bool exists(const std::string& symbol) {
+        return symbolTable.find(symbol) != symbolTable.end();
+    }
+};

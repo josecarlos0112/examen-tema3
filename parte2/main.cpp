@@ -7,6 +7,7 @@ int main() {
     // Ejemplo de uso de la clase Environment:
     Environment scriptEnvironment;
 
+    // Crear variables
     scriptEnvironment.setVariable("playerHealth", Variant(100));
     scriptEnvironment.setVariable("playerPosition", Variant(std::make_pair(0.0, 0.0)));
 

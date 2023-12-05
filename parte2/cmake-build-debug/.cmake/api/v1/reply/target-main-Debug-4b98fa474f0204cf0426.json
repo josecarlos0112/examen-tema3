@@ -124,7 +124,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "cmake-build-debug/environment.cpp",
+			"path" : "environment.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -1,15 +1,22 @@
-//
-// Created by usuario on 5/12/2023.
-//
+#ifndef VARIANT_H
+#define VARIANT_H
 
-#ifndef PARTE2_VARIANT_H
-#define PARTE2_VARIANT_H
-
-// Implementación de la clase Variant
+#include <variant>
+#include <string>
 
 class Variant {
+private:
+    std::variant<int, float, std::string> value;
+
 public:
-    // Implementación de la clase Variant (puedes agregar más funcionalidades según sea necesario)
+    Variant(int v) : value(v) {}
+    Variant(float v) : value(v) {}
+    Variant(std::string v) : value(v) {}
+
+    template <typename T>
+    T get() {
+        return std::get<T>(value);
+    }
 };
 
-#endif //PARTE2_VARIANT_H
+#endif //VARIANT_H

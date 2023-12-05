@@ -8,4 +8,4 @@ add_executable(main main.cpp
         environment.h
         " variant.h"
         " variant.h"
-        cmake-build-debug/environment.cpp)
+        environment.cpp)
