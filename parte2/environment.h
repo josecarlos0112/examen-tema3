@@ -1,11 +1,12 @@
 //
 // Created by usuario on 5/12/2023.
 //
-#ifndef ENVIRONMENT_H
-#define ENVIRONMENT_H
+#ifndef PARTE2_ENVIRONMENT_H
+#define PARTE2_ENVIRONMENT_H
 
 #include <map>
 #include <string>
+#include "variant.h"
 
 class Environment {
 private:
@@ -17,4 +18,4 @@ public:
     // Otras funciones que puedas necesitar para manipular el entorno, como eliminar variables, etc.
 };
 
-#endif // ENVIRONMENT_H
+#endif // PARTE2_ENVIRONMENT_H
