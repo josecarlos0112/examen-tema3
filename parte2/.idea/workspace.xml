@@ -18,10 +18,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58c1d9ab-0d2a-437c-89e4-30aeb20039e7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ variant.h" beforeDir="false" afterPath="$PROJECT_DIR$/ variant.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environment.h" beforeDir="false" afterPath="$PROJECT_DIR$/environment.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/environment.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/environment.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701771875441</updated>
-      <workItem from="1701771876775" duration="2082000" />
+      <workItem from="1701771876775" duration="2156000" />
     </task>
     <servers />
   </component>
