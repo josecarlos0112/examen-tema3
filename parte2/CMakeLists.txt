@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(main main.cpp
         environment.h
-        environment.h)
+        environment.h
+        " variant.h"
+        " variant.h")
