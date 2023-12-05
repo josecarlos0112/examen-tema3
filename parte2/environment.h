@@ -1,3 +1,6 @@
+#ifndef ENVIRONMENT_H
+#define ENVIRONMENT_H
+
 #include <map>
 #include <string>
 #include <exception>
@@ -33,3 +36,5 @@ public:
         return symbolTable.find(symbol) != symbolTable.end();
     }
 };
+
+#endif //ENVIRONMENT_H
